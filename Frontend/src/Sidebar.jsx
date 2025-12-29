@@ -75,7 +75,7 @@ function Sidebar() {
     return (
         <section className="sidebar">
             <button onClick={createNewChat}>
-                <img src="/logo.png" alt="SigmaGPT Logo" className="logo"></img>
+                <img src="/logo.svg" alt="SigmaGPT Logo" className="logo"></img>
                 <span>New Chat</span>
             </button>
 
