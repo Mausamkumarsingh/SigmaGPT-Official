@@ -106,7 +106,7 @@ function ChatWindow() {
         <div className="chatWindow">
             <div className="navbar">
                 <div className="logo-section">
-                    <img src="src/assets/sigma_logo.svg" alt="logo" className="nav-logo" />
+                    <img src="/logo.svg" alt="logo" className="nav-logo" />
                     <span>SigmaGPT <i className="fa-solid fa-chevron-down"></i></span>
                 </div>
                 <div className="userIconDiv" onClick={handleProfileClick}>

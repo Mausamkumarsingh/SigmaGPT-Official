@@ -89,7 +89,7 @@ function Chat() {
         const className = codeChild?.props?.className || '';
         const match = /language-(\w+)/.exec(className);
         let language = match ? match[1] : 'Code';
-        
+
         // Map common keys to display names
         const languageMap = {
             'cpp': 'C++',
@@ -101,7 +101,7 @@ function Chat() {
             'json': 'JSON',
             'sql': 'SQL'
         };
-        
+
         language = languageMap[language] || (language.charAt(0).toUpperCase() + language.slice(1));
 
         const handleCopy = () => {
@@ -134,7 +134,7 @@ function Chat() {
             {toast && <div className="toast-notification">{toast}</div>}
             {newChat ? (
                 <div className="hero">
-                    <img src="src/assets/sigma_logo.svg" className="hero-logo" alt="logo" />
+                    <img src="/logo.svg" className="hero-logo" alt="logo" />
                     <h1>Welcome to SigmaGPT</h1>
                     <p>How can I help you today?</p>
                     <div className="suggestion-grid">
