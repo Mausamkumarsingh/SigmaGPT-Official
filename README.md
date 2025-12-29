@@ -79,7 +79,8 @@ Your text is securely sent to Puter’s cloud, processed by large language model
 (GPT/Llama-class), and the generated response is returned to the app — without API keys or backend cost.
 
 
-![Landing Page](screenshots/landing.png)
+![Landing Page](https://raw.githubusercontent.com/Mausamkumarsingh/SigmaGPT-Official/main/Frontend/src/assets/landing.png)
+
 *SigmaGPT premium glassmorphism UI with animated aurora background*
 
 
