@@ -78,6 +78,11 @@ window.puter.ai.chat(prompt)
 Your text is securely sent to Puter’s cloud, processed by large language models
 (GPT/Llama-class), and the generated response is returned to the app — without API keys or backend cost.
 
+
+![Landing Page](screenshots/landing.png)
+*SigmaGPT premium glassmorphism UI with animated aurora background*
+
+
 🎯 Why I built this
 
 most AI APIs were paid or heavily rate-limited
