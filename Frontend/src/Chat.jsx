@@ -134,7 +134,7 @@ function Chat() {
             {toast && <div className="toast-notification">{toast}</div>}
             {newChat ? (
                 <div className="hero">
-                    <img src="/logo.svg" className="hero-logo" alt="logo" />
+                    <img src="/logo.png" className="hero-logo" alt="SigmaGPT logo" />
                     <h1>Welcome to SigmaGPT</h1>
                     <p>How can I help you today?</p>
                     <div className="suggestion-grid">
