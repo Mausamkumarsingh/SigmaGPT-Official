@@ -3,6 +3,7 @@ import Chat from "./Chat.jsx";
 import { MyContext } from "./MyContext.jsx";
 import { useContext, useState, useEffect } from "react";
 import { ScaleLoader } from "react-spinners";
+import logo from "./assets/logo.svg";
 
 function ChatWindow() {
     const { prompt, setPrompt, reply, setReply, currThreadId, setPrevChats, setNewChat } = useContext(MyContext);
@@ -106,7 +107,7 @@ function ChatWindow() {
         <div className="chatWindow">
             <div className="navbar">
                 <div className="logo-section">
-                    <img src="/logo.svg" alt="SigmaGPT logo" className="nav-logo" />
+                    <img src={logo} alt="SigmaGPT logo" className="nav-logo" />
 
                     <span>SigmaGPT <i className="fa-solid fa-chevron-down"></i></span>
                 </div>
