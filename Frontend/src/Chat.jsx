@@ -4,7 +4,7 @@ import { MyContext } from "./MyContext";
 import ReactMarkdown from "react-markdown";
 import rehypeHighlight from "rehype-highlight";
 import "highlight.js/styles/github-dark.css";
-import logo from "./assets/logo.svg";
+import sigmaLogo from "./assets/sigma_logo.svg";
 
 // Import languages for syntax highlighting
 import java from 'highlight.js/lib/languages/java';
@@ -135,7 +135,7 @@ function Chat() {
             {toast && <div className="toast-notification">{toast}</div>}
             {newChat ? (
                 <div className="hero">
-                    <img src={logo} className="hero-logo" alt="SigmaGPT logo" />
+                    <img src={sigmaLogo} className="hero-logo" alt="SigmaGPT logo" />
                     <h1>Welcome to SigmaGPT</h1>
                     <p>How can I help you today?</p>
                     <div className="suggestion-grid">
